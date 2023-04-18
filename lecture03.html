@@ -7,6 +7,59 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="/lecture04.js"></script>
+    <script src="/lecture03.js"></script>
+    <!-- 
+        3) palindrom with while loop
+function PalindromicNumber(num) {
+    let i = num;
+    let k = 0;
+    let revNum = 0;
+    while (i != 0) {
+        revNum = i % 10;
+        k = (k * 10) + revNum;
+        i = Math.floor(i / 10);
+    }
+    if (k == num) {
+        return "Yes"
+    } else if (k != num){
+        return "No"
+    }
+}
+console.log(PalindromicNumber(2002));
+
+function PalindromicNumber (num){
+    let k = 0;
+    for (let i = num; i > 0; i = Math.floor(i / 10)) {
+        let rev = 0;
+        rev = i % 10;
+        k = k*10+rev;
+    }
+    if (k == num){
+        return true
+    } else{
+        return false;
+    }
+}
+console.log(PalindromicNumber(7007));
+
+
+function PrimeOrNot(num) {
+    let cnt = 0;
+    for (let i = 1; i <= num; i++) {
+        if (num % i == 0) {
+            cnt++;
+        }
+    }
+        if (cnt == 2) {
+            return "Yes";
+        }
+        else {
+            return "No";
+        }
+}
+console.log(PrimeOrNot(2));
+console.log(PrimeOrNot(3));
+
+     -->
 </body>
 </html>
