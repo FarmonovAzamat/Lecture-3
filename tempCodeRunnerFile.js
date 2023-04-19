@@ -1,3 +1,9 @@
-var n = "JavaScript is not Java";
-console.log(n.at(-1));
-console.log(n.at(4));
+function charCout (a, str) {
+    let cnt = 0;
+    for (let i = 0; i<str.length; i++){
+        if (a.includes(str[i].toLowerCase())){
+            cnt ++;
+        }
+    }
+    return cnt;
+}
