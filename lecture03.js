@@ -91,14 +91,14 @@
 // console.log(str);
 
 //12) ----indexOf()----
-// var n = "JavaScript is not Java";
-// var str = n.indexOf("is");
+// var n = "JavaScript is not C++";
+// var str = n.indexOf("JavaScript");
 // console.log(str);
 
 //13)--------repeat()--
-// var n = "JavaScript is not Java. ";
-// var repeat = n.repeat("2");
-// console.log(repeat);
+var n = "JavaScript is not Java. ";
+var repeat = n.repeat("2");
+console.log(repeat);
 
 //14) --- at()---
 // var n = "JavaScript is not Java";
