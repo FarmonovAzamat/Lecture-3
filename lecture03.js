@@ -41,10 +41,14 @@
 
 //-----------------split()----//
 //4) split() - splits a string into an array and does'n change the original
-// const text1 = "How are you doing today?"
-// const result1 = text1.split(" ");
-// const result1 = text1.split(" ", 3);
+// const text1 = "How are you doing?"
+// const result1 = text1.split();
+// const result2 = text1.split("");
+// const result3 = text1.split(" ");
+// //const result1 = text1.split(" ", 3);
 // console.log(result1);
+// console.log(result2);
+// console.log(result3);
 
 //5) /*-----substring(start, end) */
 // substring() 
@@ -55,21 +59,21 @@
 
 //6) /*slice (start,end) */
 // const text1 = "Hello world"
-// // const result1 = text1.substring("2");
-// const result1 = text1.slice(2-2,5);
+// const result1 = text1.substring(2,5);
+// //const result1 = text1.slice(-4);
 // console.log(result1);
 
 //7 /**toLowerCase()*/
-// const text1 = "HelLo world"
+const text1 = "HelLo world"
 
-// const result1 = text1.toLowerCase();
-// console.log(result1);
+const result1 = text1.toLowerCase();
+console.log(result1);
 
 //8 /*toUpperCase()*/
-// const Text1 = "HelLo world"
+const Text1 = "HelLo world"
 
-// const Result1 = Text1.toUpperCase();
-// console.log(Result1);
+const Result1 = Text1.toUpperCase();
+console.log(Result1);
 
 //9 //-----trim()----//
 //Method trim() removes whitespace from both sides of a string.
@@ -87,8 +91,6 @@
 // console.log(typeof(n));
 // var str = n.toString();
 // console.log(typeof(str));
-// console.log(n);
-// console.log(str);
 
 //12) ----indexOf()----
 // var n = "JavaScript is not C++";
@@ -96,9 +98,9 @@
 // console.log(str);
 
 //13)--------repeat()--
-var n = "JavaScript is not Java. ";
-var repeat = n.repeat("2");
-console.log(repeat);
+// var n = "JavaScript is not Java. ";
+// var repeat = n.repeat("2");
+// console.log(repeat);
 
 //14) --- at()---
 // var n = "JavaScript is not Java";
